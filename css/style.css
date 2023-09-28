@@ -32,19 +32,52 @@ img{
     width: 100%;
     height: 100%;
 }
+i , span{
+    color: white;
+    font-size: 15px;
+    background-color: rgba(128, 128, 128, 0.379);
+}
 
 footer{
     background-color: rgb(40, 40, 40);
     width: 100vw;
     height: 80px;
 }
-i , span{
+.name{
+    bottom: 0;
+    left: 23px;
     color: white;
     font-size: 15px;
     background-color: rgba(128, 128, 128, 0.523);
+    }
+    i{
+        bottom: 0;
+        left: 0;
+        background: none;
+    }
+.mute{
+    padding-left: 20px;
 }
-span{position: relative;}
+.mute>i{
+    font-size: 25px;
+    background: none;
+    padding-bottom: 5px;
+}
+p{
+    font-size: 10px;
+    color: white;
+}
+.angle{
+    padding-left: 10px;
+    padding-top: 13px;
+}
+/** span{position: relative}
 .name{
     position: relative;
     bottom: 23px;
 }
+i , span{
+    position:absolute;
+    bottom:24px;
+}**/
+
