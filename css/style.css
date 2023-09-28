@@ -1,0 +1,27 @@
+header{
+    width: 100vw;
+    height: 60px;
+    background-color: black;
+}
+.btn-top{
+    background-color: grey;
+    color:white;
+    padding: 2px 10px;
+    border-radius: 10%;
+    margin: 10px 5px;
+}
+main{
+    height: calc(100vh - 140px);
+    background-color: darkslategrey;
+    overflow: auto;
+}
+.container{
+    background-color: chocolate;
+    margin: 0 100px;
+    height: 100%;
+}
+footer{
+    background-color: darkolivegreen;
+    width: 100vw;
+    height: 80px;
+}
