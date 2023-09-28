@@ -12,21 +12,26 @@ header{
 }
 main{
     height: calc(100vh - 140px);
-    background-color: darkslategrey;
+
     overflow: auto;
 }
 .container{
-    background-color: chocolate;
+
     margin: 0 100px;
     height: 100%;
 }
 .card{
     width: calc((100% / 7) - 10px);
     height: 100px;
-    background-color: aliceblue;
+    /*background-color: aliceblue;
     border: 1px solid brown;
-    margin: 0 5px 10px 0;
+    margin: 0 5px 10px 0;*/
 }
+img{
+    width: 100%;
+    height: 100%;
+}
+
 footer{
     background-color: darkolivegreen;
     width: 100vw;
