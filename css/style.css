@@ -20,6 +20,13 @@ main{
     margin: 0 100px;
     height: 100%;
 }
+.card{
+    width: calc((100% / 7) - 10px);
+    height: 100px;
+    background-color: aliceblue;
+    border: 1px solid brown;
+    margin: 0 5px 10px 0;
+}
 footer{
     background-color: darkolivegreen;
     width: 100vw;
