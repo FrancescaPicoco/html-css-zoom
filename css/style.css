@@ -24,8 +24,9 @@ main{
     width: calc((100% / 7) - 10px);
     height: 100px;
     /*background-color: aliceblue;
-    border: 1px solid brown;
-    margin: 0 5px 10px 0;*/
+    border: 1px solid brown;*/
+    margin-left: 8px;
+    margin-bottom: 15px;
 }
 img{
     width: 100%;
@@ -33,7 +34,17 @@ img{
 }
 
 footer{
-    background-color: darkolivegreen;
+    background-color: rgb(40, 40, 40);
     width: 100vw;
     height: 80px;
+}
+i , span{
+    color: white;
+    font-size: 15px;
+    background-color: rgba(128, 128, 128, 0.523);
+}
+span{position: relative;}
+.name{
+    position: relative;
+    bottom: 23px;
 }
