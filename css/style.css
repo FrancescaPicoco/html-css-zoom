@@ -25,8 +25,8 @@ main{
     height: 100%;
 }
 .card{
-    width: calc((100% / 7) - 10px);
-    height: 100px;
+    width: calc((100% / 5) - 10px);
+    height: 150px;
     /*background-color: aliceblue;
     border: 1px solid brown;*/
     margin-left: 8px;
@@ -40,6 +40,7 @@ i , span{
     color: white;
     font-size: 15px;
     background-color: rgba(128, 128, 128, 0.379);
+    margin-bottom: 5px;
 }
 
 footer{
